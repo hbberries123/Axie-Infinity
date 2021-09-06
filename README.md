@@ -4,7 +4,7 @@ Load and display recently listed Axies in discord channel. I've seen a lot of pe
   You can filter out Axies with slash command by their price, abilities and body parts.  Bot will refresh and find new Axies every 5 seconds and send it in provided discord channel.
   
 ## Requesting data
-To simply request recently listed Axies we need to send `POST https://graphql-gateway.axieinfinity.com/graphql` request with below JSON Body:
+`POST https://graphql-gateway.axieinfinity.com/graphql` with JSON body:
   ```
 {
     "operationName": "GetAxieLatest",
